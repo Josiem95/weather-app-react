@@ -18,7 +18,10 @@ function App() {
             Open source code
           </a>{" "}
           by{" "}
-          <a href="https://github.com/Josiem95" className="footer-link">
+          <a
+            href="https://happy-meitner-b5fe96.netlify.app"
+            className="footer-link"
+          >
             Josie Mortison{" "}
           </a>
         </footer>
