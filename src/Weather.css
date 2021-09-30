@@ -4,14 +4,10 @@
 }
 
 .Weather {
-  margin: 30px auto;
-  padding: 30px;
-  border: 5px solid #fcbf49;
+  margin: 0px auto;
+  padding: 10px;
+  border: 13px solid #fcbf49;
   border-radius: 10px;
-}
-
-.Weather .page-break {
-  border: 3px solid var(--accent-color);
 }
 
 .Weather h1 {
@@ -23,16 +19,32 @@
   text-align: center;
 }
 
-.Weather .form {
-  text-align: center;
-}
-
 .Weather .form-control {
-  background-color: var(--accent-color);
+  margin: 10px 0px 30px 0px;
+  border: 3px solid #fcbf49;
+  background-color: #f5cf84;
+}
+.Weather .form-control:focus {
+  border-color: #fcbf49;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.Weather .has-error .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.Weather .card {
+  border: 5px solid #fcbf49;
+  background-color: #f5cf84;
 }
 
 .Weather .btn-outline-custom {
   border: 3px solid var(--accent-color);
+}
+
+hr {
+  background-color: transparent;
+  border-top: 9px dotted #155263;
 }
 
 @media (max-width: 450px) {

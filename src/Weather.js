@@ -4,6 +4,7 @@ import WeatherForecast from "./WeatherForecast";
 import Loader from "react-loader-spinner";
 import axios from "axios";
 import "./Weather.css";
+import "./App.css";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -66,10 +67,10 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         {form}
-        <hr className="page-break" />
+        <hr />
         <h1>{weatherData.city}</h1>
         <WeatherInfo data={weatherData} />
-        <hr className="page-break" />
+        <hr />
         <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );

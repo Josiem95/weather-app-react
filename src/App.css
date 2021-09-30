@@ -1,21 +1,21 @@
 .App {
-  font-family: sans-serif;
+  font-family: "Miller Text", Georgia, serif;
   text-align: center;
 }
 
 body {
-  background: #155263;
+  background: #f5cf84;
   font-family: "Miller Text", Georgia, serif;
 }
-button {
+.Weather button {
   background-color: #f5cf84;
   border-radius: 20px;
   border: 2px solid #155263;
   transition: all 200ms ease;
   opacity: 1;
-  color: black;
+  color: #155263;
 }
-button:hover {
+.Weather button:hover {
   opacity: 1;
   background-color: #fcbf49;
   color: #fff;
@@ -27,6 +27,7 @@ ul {
   font-size: 15px;
   margin-bottom: 20px;
   font-weight: 10;
+  color: #155263;
 }
 
 .App footer {
@@ -38,5 +39,6 @@ ul {
 
 .App .footer-link {
   text-decoration: none;
-  color: #fcbf49;
+  color: #155263;
+  text-decoration: underline;
 }

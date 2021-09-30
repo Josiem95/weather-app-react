@@ -1,5 +1,7 @@
 .WeatherForecast {
   text-align: center;
+  color: #155263;
+  font-size: 18px;
 }
 .WeatherForecast li {
   list-style: none;

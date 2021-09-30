@@ -2,7 +2,7 @@
   font-family: "Miller Text", Georgia, serif;
   font-size: 50px;
   font-weight: 400;
-  color: #fcbf49;
+  color: #155263;
   line-height: 1;
   text-align: center;
   padding: 2px, 10px 0px, 0px;
@@ -18,7 +18,7 @@
 }
 
 .active-unit {
-  color: #fcbf49;
+  color: #155263;
   font-size: 20px;
   position: relative;
   top: -15px;
