@@ -1,0 +1,26 @@
+.TempConversion strong {
+  font-family: "Miller Text", Georgia, serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: #fcbf49;
+  line-height: 1;
+  text-align: center;
+  padding: 2px, 10px 0px, 0px;
+}
+
+.units {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 20px;
+  position: relative;
+  top: -15px;
+  left: 15px;
+}
+
+.active-unit {
+  color: #fcbf49;
+  font-size: 20px;
+  position: relative;
+  top: -15px;
+  left: 10px;
+}

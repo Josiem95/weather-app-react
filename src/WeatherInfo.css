@@ -1,0 +1,32 @@
+.WeatherInfo .icon {
+  text-align: right;
+  font-size: 50px;
+  color: var(--primary-color);
+}
+
+.main-info {
+  margin-top: 30px;
+}
+
+.WeatherInfo ul {
+  text-align: center;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.WeatherInfo li {
+  list-style: none;
+  color: #fcbf49;
+  font-family: "Miller Text", Georgia, serif;
+  font-size: 16px;
+}
+
+.WeatherInfo li:first-letter {
+  text-transform: capitalize;
+}
+
+@media (max-width: 450px) {
+  .WeatherInfo .icon {
+    font-size: 40px;
+  }
+}
