@@ -8,7 +8,7 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      <div className="container mt-3">
+      <div className="container mt-6">
         <Weather defaultCity="Vancouver" />
         <footer>
           <a
