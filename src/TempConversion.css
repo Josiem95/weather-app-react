@@ -1,6 +1,6 @@
 .TempConversion strong {
   font-family: "Miller Text", Georgia, serif;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 400;
   color: #155263;
   line-height: 1;
@@ -19,7 +19,7 @@
 
 .active-unit {
   color: #155263;
-  font-size: 20px;
+  font-size: 22px;
   position: relative;
   top: -15px;
   left: 10px;

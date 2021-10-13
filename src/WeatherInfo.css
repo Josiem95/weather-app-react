@@ -1,6 +1,5 @@
 .WeatherInfo .icon {
-  text-align: right;
-  font-size: 50px;
+  font-size: 60px;
   color: var(--primary-color);
 }
 
@@ -18,7 +17,7 @@
   list-style: none;
   color: #155263;
   font-family: "Miller Text", Georgia, serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .WeatherInfo li:first-letter {
