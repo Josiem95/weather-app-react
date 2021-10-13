@@ -7,38 +7,16 @@ body {
   background: #f5cf84;
   font-family: "Miller Text", Georgia, serif;
 }
-.Weather button {
-  background-color: #f5cf84;
-  border-radius: 20px;
-  border: 2px solid #155263;
-  transition: all 200ms ease;
-  opacity: 1;
-  color: #155263;
-}
-.Weather button:hover {
-  opacity: 1;
-  background-color: #fcbf49;
-  color: #fff;
-}
-
-ul {
-  list-style-type: none;
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 20px;
-  font-weight: 10;
-  color: #155263;
-}
 
 .App footer {
   font-size: 15px;
   padding: 10px 0px 0px;
-  color: #155263;
+  color: #fcbf49;
   text-align: center;
 }
 
 .App .footer-link {
   text-decoration: none;
-  color: #155263;
+  color: #fcbf49;
   text-decoration: underline;
 }

@@ -8,6 +8,7 @@
   padding: 10px;
   border: 13px solid #fcbf49;
   border-radius: 10px;
+  background-color: #f5cf84;
 }
 
 .Weather h1 {
@@ -21,11 +22,10 @@
 
 .Weather .form-control {
   margin: 10px 0px 30px 0px;
-  border: 3px solid #fcbf49;
+  border: 3px solid var(--primary-color);
   background-color: #f5cf84;
 }
 .Weather .form-control:focus {
-  border-color: #fcbf49;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -38,8 +38,24 @@
   background-color: #f5cf84;
 }
 
-.Weather .btn-outline-custom {
-  border: 3px solid var(--accent-color);
+.Weather .btn {
+  background-color: #f5cf84;
+  border-radius: 5px;
+  border: 3px solid var(--primary-color);
+  transition: all 200ms ease;
+  opacity: 1;
+  color: #155263;
+  margin-top: 10px;
+}
+
+.Weather .btn:hover {
+  opacity: 1;
+  background-color: #fcbf49;
+  color: var(--primary-color);
+}
+
+body {
+  background-color: var(--primary-color);
 }
 
 hr {
